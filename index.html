@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <!-- favicon -->
+     <link rel="icon" type="image/png" href="https://static.vecteezy.com/system/resources/thumbnails/000/649/518/small/illust58-2326.jpg">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+<!-- font awsome cnd -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- css -->
+<style>
+  .carousel-caption{
+    position: absolute;
+  
+  }
+  .carousel-caption h2{
+    font-weight: bolder;
+  }
+  .list{
+    overflow: hidden;
+    transition: all 1.5s ease ;
+  }
+  .list .card:hover{
+    transform: scale(1.15);
+  }
+  .list .card{
+    display: flex;
+  }
+  .list .col-md-4 .btn{
+        position: absolute;
+      }
+      .gallery{
+        overflow: hidden;  
+      }
+      .gallery .card:hover{
+        transform: scale(1.20);
+        opacity: 1;
+        transition: 0.6s;
+        color: rgb(54, 48, 48);
+      }
+      
+      
+    </style>
+</head>
+
+<body style="  font-family: Instrument Serif serif;">
+    <!-- navbar -->
+    <nav class="navbar navbar-collapse bg-warning">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav text-center">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">watch video</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Blocks
+                  </a>
+                  <ul class="dropdown-menu text-center bg-warning border-warning">
+                    <li><a class="dropdown-item" href="#">Menu pages</a></li>
+                    <li><a class="dropdown-item" href="#">Headers</a></li>
+                    <li><a class="dropdown-item" href="#">images & videos</a></li>
+                    <li><a class="dropdown-item" href="#">shops</a></li>
+                    <li><a class="dropdown-item" href="#">Features</a></li>
+                    <li><a class="dropdown-item" href="#">info</a></li>
+                    <li><a class="dropdown-item" href="#">TEARMS & TESTIMONALS</a></li>
+                    <li><a class="dropdown-item" href="#">FORMS & MAPS</a></li>
+                    <li><a class="dropdown-item" href="#">PRICING TABLES</a></li>
+                    <li><a class="dropdown-item" href="#">Tables</a></li>
+                    <li><a class="dropdown-item" href="#">social</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    DEMO PAGE
+                  </a>
+                  <ul class="dropdown-menu text-center bg-warning border-warning">
+                    <li><a class="dropdown-item" href="#">Headphone shop</a></li>
+                    <li><a class="dropdown-item" href="#">shoe shop</a></li>
+                    
+                    <li><a class="dropdown-item" href="#">Cafe</a></li>
+                  </ul>
+                </li>
+              </div>
+              <footer class="text-center">
+                <!-- Grid container -->
+                <div class="container pt-4">
+                  <!-- Section: Social media -->
+                  <section class="mb-4">
+                    <!-- Facebook -->
+                    <a
+                      data-mdb-ripple-init
+                      class="btn btn-link btn-floating btn-lg text-body m-1"
+                    href="#!"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+            
+                  <!-- Twitter -->
+                  <a
+                    data-mdb-ripple-init
+                    class="btn btn-link btn-floating btn-lg text-body m-1"
+                    href="#!"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+            
+                  <!-- Google -->
+                  <a
+                    data-mdb-ripple-init
+                    class="btn btn-link btn-floating btn-lg text-body m-1"
+                    href="#!"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><i class="fab fa-google"></i
+                  ></a>
+                    <!-- Instagram -->
+                    <a
+                    data-mdb-ripple-init
+                    class="btn btn-link btn-floating btn-lg text-body m-1"
+                    href="#!"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+            
+                  <!-- Linkedin -->
+                  <a
+                    data-mdb-ripple-init
+                    class="btn btn-link btn-floating btn-lg text-body m-1"
+                    href="#!"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <!-- Github -->
+                  <a
+                  data-mdb-ripple-init
+                  class="btn btn-link btn-floating btn-lg text-body m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+            <div class="col-md-16 py-5 py-md-0">
+              <button id="about-btn" class="bg-light border-light rounded-5 w-3 btn custom-hover btn bg-warning">Buy Now</button>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </nav>
+    <!-- content -->
+     <section id="home">
+         <div id="" class="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGVhZHBob25lfGVufDB8fDB8fHww" class="d-block w-100" alt="..." style="height: 600px;">
+               <div class="carousel-caption text-dark">
+                <h6 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-right: 610px; color: black;">THINKING OF BUYING A HEADPHONE?</h6>
+                  <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-right: 650px; margin-bottom: 200px;color: black; font-weight: 300;"><b>Welcome to our<br>Headphones shop</b></h2>
+                </div>
+                <div class="carousel-caption" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;margin-bottom: 150px; margin-right: 750px;  ">
+                    <button type="button" class="btn btn-light rounded-5">Shopping Now</button>
+                </div>
+              </div>
+            </div>
+           </div>
+       </section>
+        <div class="row text-center m-5 p-4">
+        <h2>Find a quality and right headphones is not easy</h2>
+        <p><span>Lorem ipsum dolor</span>sit amet consectetur, adipisicing elit. Iure magni architecto officiis assumenda repudiandae ex! Blanditiis, eveniet? Harum exercitationem velit nemo, nulla itaque consequatur dicta, aperiam dolore, necessitatibus accusamus non Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam minima alias officiis aliquid, totam suscipit nostrum. Ad expedita, corporis, placeat quod libero autem omnis enim laboriosam quasi, eligendi esse odio.</p>
+      </div>
+      <div class="row bg-warning">
+        <h1 class="text-center text-light">We will help you to choose the best headphone</h1>
+      </div>
+      <!-- list -->
+    <section id="" class="list">
+        <div class="container mb-3 m-5" style="margin-top: 30px;">
+          <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Hottest headphones of the month</h4>
+          <div class="row">
+            <div class="col-md-4 py-3 py-md-0 mt-5 m-6">
+                <div class="card border-dark bg-warning" style="width: 300px; height: 400px;">
+                    <img src="https://t4.ftcdn.net/jpg/03/28/37/93/360_F_328379347_xEKgEB2wkjAJmcqSTmrg4uKxfWrlL7D9.jpg" class="card-img-top" alt="first" width=100%; height="200px">
+                    <button type="button" class="btn btn-warning rounded-5" style="position: absolute;">Headphone</button>
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">HEADPHONES</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-light">Buy Now</a>
+                    </div>
+                </div>
+              </div>  
+         
+            <div class="col-md-4 py-3 py-md-0 mt-5 ">
+              <div class="card border-dark bg-warning" style="width: 300px; height: 400px;">
+                  <img src="https://zebronics.com/cdn/shop/products/ZEB-Duke-101-pic1.jpg?v=1622629153&width=2048" class="card-img-top" alt="first" width=100%; height="200px">
+                  <button type="button" class="btn btn-warning rounded-5" style="position: absolute;">Headphone</button>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">HEADPHONES</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-light">Buy Now</a>
+                </div>
+            </div>
+          </div>
+            <div class="col-md-4 py-3 py-md-0 mt-5">
+              <div class="card border-dark bg-warning" style="width: 300px; height: 400px;">
+                  <img src="https://www.reliancedigital.in/medias/Noise-Three-Wireless-Headphone-494249952-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0NzYwOHxpbWFnZS9qcGVnfGltYWdlcy9oOWMvaGYxLzEwMDg1MTUxOTMyNDQ2LmpwZ3w5OWQ5NWM5MjJlOTY3MWEzYWMxMWUyZjNmMjJiODliYTE5ZjhhZWFiMmMxMGI5YWFlYmU3ZmJhMjE3NTE1Nzlj" class="card-img-top" alt="first" width=100%; height="200px">
+                  <button type="button" class="btn btn-warning rounded-5" style="position: absolute;">Headphone</button>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">HEADPHONES</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-light">Buy now</a>
+                  </div>
+              </div>
+            </div> 
+          </div>     
+      </div>
+    </section>
+<!-- Gallery -->
+<section class="gallery" id="gallery">
+    <div class="container mt-5">
+      <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Meet Our New Headphones</h4>
+        <div class="row mb-2 mt-5">
+            <div class="col-md-4 py-3 py-md-0 ">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/4887246/pexels-photo-4887246.jpeg?auto=compress&cs=tinysrgb&w=600"alt="..." width="100%" height="230px">
+                </div>    
+            </div>
+             <div class="col-md-4 py-3 py-md-0"style="margin-bottom: 10px;">
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/music-arrangement-with-black-headphones-cables-with-copy-space_23-2148785724.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1705104000&semt=ais"alt="..." height="230px">
+
+
+                   </div>    
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://c4.wallpaperflare.com/wallpaper/1018/352/28/blue-background-wall-headphones-wallpaper-preview.jpg"alt="..." height="230px">
+                </div>    
+            </div>
+            <div class="col-md-4 py-3 py-md-0 mb-3">
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/music-arrangement-with-black-headphones-cables-with-copy-space_23-2148785724.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1705104000&semt=ais"alt="..." height="230px">
+                </div>    
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://i.pinimg.com/originals/d6/54/01/d65401e36b2bf8ea267c0e1cfa54a018.jpg"alt="..." height="230px">
+                </div>    
+            </div>
+            <div class="col-md-4 py-3 py-md-0 mb-3">
+                <div class="card">
+                    <img src="https://images.herzindagi.info/image/2024/Jan/best-gaming-Headphones-1.jpg"alt="..." height="230px">
+                </div>    
+            </div>
+        </div>
+    </div>
+</section>
+<section id="" class="learn">
+<div class="row bg-warning" style="position: relative; height: 100px;">
+    <div class="col">
+    <h6>HURRY UPI THE OFFER IS LIMITED</h6>
+    <h3>Like it?Pre-Order and get a discount</h3>
+   
+    <div class="learn-btn">
+      <button type="button" class="btn bg-light" style="margin-left: 900px; position: absolute; top: 10px;">Learn More</button>
+    </div>
+  </div>
+</div>
+</section>
+<!-- rating -->
+<div class="row m-5 p-3">
+    <h2  class="text-center" style="font-weight: 300;">Why do you have to buy headphones only from us?</h2>
+    <div class="col-md-3 py-3 py-md-0 mt-5">
+      <div class="card border-light" style="width: 200px; height: 300px;">
+        <img src="" class="card-img-top" alt="" width=100%; height="100px">
+            <div class="card-body">
+              <h6 class="card-title"><b>HIGH QUALITY</b></h6>
+                <br>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn text-warning ">Learn More...</a>
+              </div>
+            </div>
+        </div>  
+        <div class="col-md-3 py-3 py-md-0 mt-5">
+          <div class="card border-light" style="width: 200px; height: 300px;">
+            <img src="" alt=""  class="card-img-top" alt="first" width=100%; height="100px">
+
+
+
+             
+          
+
+
+              <div class="card-body">
+                <h6 class="card-title"><b>ORIGINAL DEVICES</b></h6>
+                <br>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn text-warning">Learn More...</a>
+                </div>
+          </div>
+        </div>  
+        <div class="col-md-3 py-3 py-md-0 mt-5">
+          <div class="card border-light" style="width: 200px; height: 300px;">
+        
+            <img src="" alt=""  class="card-img-top" alt="first" width=100%; height="100px">
+
+            <div class="card-body">
+                <h6 class="card-title"><b>YEAR WARRANTY</b></h6>
+                <br>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn text-warning ">Learn More...</a>
+                </div>
+          </div>
+        </div>  
+        <div class="col-md-3 py-3 py-md-0 mt-5">
+          <div class="card border-light" style="width: 200px; height: 300px;">
+            <img src="" alt=""  class="card-img-top" alt="first" width=100%; height="100px">
+
+            <div class="card-body">
+              <h6 class="card-title"><b>WEEK TO CHECK</b></h6>
+              <br>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn text-warning">Learn More...</a>
+              </div>
+        </div>
+      </div>  
+      
+      <div class="row text-center">
+        
+        <h5>STILL NOT CONVINCED</h5>
+        <h3 style="font-weight: 400;">Visit us and see your self!</h3>
+      </div>
+    </div>
+    <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62865.541959134745!2d76.30948076784672!3d10.008897991861577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080c8e94a07a07%3A0x49921cdfae82660!2sKakkanad%2C%20Kerala!5e0!3m2!1sen!2sin!4v1705264108641!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+    
+
+    <!-- footer -->
+    <!-- Footer -->
+  <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGVhZHBob25lfGVufDB8fDB8fHww" width="200px">
+    </div>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">All rights are reserved for terms & use of privacy policy</a>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-google"></i>
+    </a>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+  <!-- Right -->
+</section>
+<!-- Section: Social media -->
+
+<!-- Section: Links  -->
+
+</footer>
+<!-- Footer -->
+</body>
+</html>
